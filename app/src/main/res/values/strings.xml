@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeWork1</string>
+    <string name="nameexception"> Имя введен неверно</string>
+    <string name="heightException">Рост введен неверно</string>
+    <string name="weightException">Вес введен неверно</string>
+    <string name="ageException">Возраст введен неверно</string>
+</resources>
