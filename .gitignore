@@ -9,7 +9,6 @@ bin/
 gen/
 out/
 gen-external-apklibs/
-
 # Gradle generated files
 .gradle/
 build/
