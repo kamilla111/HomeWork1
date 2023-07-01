@@ -7,7 +7,6 @@ local.properties
 # Generated files
 bin/
 gen/
-
 out/
 gen-external-apklibs/
 
