@@ -35,19 +35,19 @@ class MainActivity : AppCompatActivity() {
             val agee = agePeople?.text.toString().toInt()
             var answerr = answer?.text
             var flag=true
-            if (namee < 0 || namee > 50) {
+            if (namee > 50 || namePeople?.text.toString().trim().isEmpty()) {
                 namePeople?.error=getString(R.string.nameexception)
                 flag=false
             }
-            if (weightt > 250.0 || weightt < 0.0) {
+            if (weightt > 250.0 || weightt < 0.0 || weightPeople?.text.toString().isEmpty()) {
                 weightPeople?.error=getString(R.string.weightException)
                 flag=false
             }
-            if (heightt < 0 || heightt > 250) {
+            if (heightt < 0 || heightt > 250 || heightPeople?.text.toString().isEmpty()) {
                 heightPeople?.error=getString(R.string.heightException)
                 flag=false
             }
-            if (agee < 0 || agee > 150) {
+            if (agee < 0 || agee > 150 || agePeople?.text.toString().isEmpty()) {
                 agePeople?.error=getString(R.string.ageException)
                 flag=false
             }
